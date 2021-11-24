@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* grey: #58595b
+red: #c70039 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.home-container {
+    min-height: 100vh;
+    background: url(Images/BGPortfolio.jpg);
+    background-size: cover;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 40px;
+    margin-left: 60px;
+    overflow: hidden;
+}
+
+.nav-links a {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    transition: transform 0.4s;
+}
+
+.nav-links a::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+}
+
+.nav-links a:hover {
+    transform: translateY(-100%);
+}
+
+.landing {
+    line-height: 80px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.big-title {
+    width: 40%;
+    color: white;
+    font-size: 80px;
+    font-family: "Abril Fatface", cursive;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.big-title a:hover{
+    color: #c70039;
+    ;
+}
+
+.footer {
+    margin-top: -3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+
+.copyrights {
+    padding-right: 20px;
+    color: white;
+}
