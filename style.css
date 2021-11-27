@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-/* grey: #58595b
-red: #c70039 */
+/* 
+orange: #f3a30d
+purple: #8509a5
+*/
 
 * {
     margin: 0;
@@ -14,7 +16,7 @@ red: #c70039 */
 
 .home-container {
     min-height: 100vh;
-    background: url(Images/BGPortfolio.jpg);
+    background: url(Images/BG.jpg);
     background-size: cover;
 }
 
@@ -37,8 +39,9 @@ red: #c70039 */
 }
 
 .nav-links li {
-    margin: 40px;
+    margin: 30px;
     margin-left: 60px;
+    margin-bottom: 35px;
     overflow: hidden;
 }
 
@@ -81,20 +84,27 @@ red: #c70039 */
 }
 
 .big-title a:hover{
-    color: #c70039;
+    color: #f3a30d;
     ;
 }
 
-.footer {
-    margin-top: -3%;
+.content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 100px;
-    flex-wrap: wrap;
 }
 
-.copyrights {
+#tete{
+    width: 150px;
+    margin-left: -220px;
+    
+}
+
+.footer {
+    margin-top: -2%;
+    margin-left: 10px;
+}
+
+.date {
     padding-right: 20px;
     color: white;
 }
