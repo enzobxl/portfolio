@@ -108,3 +108,92 @@ purple: #8509a5
     padding-right: 20px;
     color: white;
 }
+
+
+.menu {
+	display: flex;
+	gap: 1em;
+	font-size: 18px;
+}
+
+.hamburger{
+	margin-left: 190px;
+	margin-top: -40px;
+}
+
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+	display: none;
+} 
+/*HAMBURGER MENU*/
+.hamburger {
+	display: none;
+	font-size: 24px;
+	user-select: none;
+}
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+
+	.menu { 
+		display:none;
+		position: absolute;
+		right: 20px;
+		left: 0;
+		text-align: right;
+	}
+
+	.nav-links li {
+		margin: 8px;
+		margin-left: 60px;
+		margin-bottom: 35px;
+		overflow: hidden;
+	}
+
+	.home-container {
+		min-height: 100vh;
+		background: url(Images/BGphone.jpg);
+		background-size: cover;
+	}
+
+	input[type=checkbox]:checked ~ .menu{
+		display: block;
+	}
+	.hamburger {
+		display: block;
+	}
+
+	.logo {
+        width: 100px;
+		margin-top: -20px;
+    }
+
+    .landing,
+    .header,
+    .footer {
+        padding: 0 7%;
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .big-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+	#tete{
+		width: 70px;
+		margin-top: 210px;
+		margin-left: -335px;
+	}
+
+	.footer{
+		margin-top: -30px;
+		margin-left: -15px;
+	}
+	
+}
+
