@@ -16,7 +16,8 @@ purple: #8509a5
 
 .home-container {
     min-height: 100vh;
-    background: url(../Images/CV_BG.jpg);
+    max-height: 100vh;
+    background: url(../Images/profilBG.jpg);
     background-size: cover;
 }
 
@@ -75,7 +76,7 @@ purple: #8509a5
 }
 
 .big-title {
-    width: 40%;
+    width: 100%;
     color: #f3a30d;
     font-size: 80px;
     font-family: "Abril Fatface", cursive;
@@ -111,20 +112,9 @@ purple: #8509a5
     position: absolute;
     width: 50px;
     height: 7px;
-    background: #f3a30d;
+    background: #8509a5;
     bottom: 0;
     box-shadow: 0 2px 2px #0000001F;
-}
-
-.pdf-container{
-    margin-top: 20px;
-    text-align: center;
-}
-
-#tete{
-    width: 150px;
-    margin-left: -220px;
-    
 }
 
 .footer {
@@ -263,6 +253,13 @@ purple: #8509a5
         font-size: 23px;
     }
 
+    .home-container {
+		min-height: 100vh;
+		background: url(../Images/profilBGphone.jpg);
+		background-size: cover;
+	}
+
+
 	.logo {
         width: 100px;
         top: 20%;
@@ -283,11 +280,32 @@ purple: #8509a5
         line-height: 50px;
     }
 
-	#tete{
-		width: 70px;
-		margin-top: 210px;
-		margin-left: -335px;
-	}
+    .text-container {
+        min-height: 80vh;
+        background: white;
+        padding: 0 100px;
+    }
+    
+    .content{
+        text-align: justify;
+    }
+    
+    .section-title {
+        position: relative;
+        font-family: "Abril Fatface", cursive;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    
+    .section-title::before {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 7px;
+        background: #2f4e37;
+        bottom: 0;
+        box-shadow: 0 2px 2px #0000001F;
+    }
 
 	.footer{
 		margin-top: -30px;

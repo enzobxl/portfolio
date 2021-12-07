@@ -52,7 +52,7 @@ purple: #8509a5
     text-decoration: none;
     position: relative;
     display: block;
-    transition: transform 0.4s;
+    transition: transform 0.5s;
 }
 
 .nav-links a::before {
