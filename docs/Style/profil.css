@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 /* 
 orange: #f3a30d
-purple: #8509a5
 */
 
 * {
@@ -17,7 +16,7 @@ purple: #8509a5
 .home-container {
     min-height: 100vh;
     max-height: 100vh;
-    background: url(../Images/profilBG.jpg);
+    background: url(../Images/BGprofil.jpg);
     background-size: cover;
 }
 
@@ -49,7 +48,7 @@ purple: #8509a5
 .nav-links a {
     font-size: 18px;
     font-weight: 500;
-    color: white;
+    color: black;
     text-decoration: none;
     position: relative;
     display: block;
@@ -66,7 +65,7 @@ purple: #8509a5
     transform: translateY(-100%);
 }
 
-.landing {
+.main-title {
     line-height: 80px;
     min-height: 100vh;
     display: flex;
@@ -79,7 +78,7 @@ purple: #8509a5
     width: 100%;
     color: #f3a30d;
     font-size: 80px;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Oswald', cursive;
     font-weight: 100;
     text-decoration: none;
 }
@@ -88,10 +87,16 @@ purple: #8509a5
     width: 40%;
     color: white;
     font-size: 60px;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Oswald', cursive;
     font-weight: 100;
     text-decoration: none;
     margin-left: 15%;
+}
+
+.text-container {
+    min-height: 80vh;
+    background: white;
+    padding: 0 100px;
 }
 
 .content{
@@ -101,8 +106,7 @@ purple: #8509a5
 
 .section-title {
     position: relative;
-    text-align: center;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Oswald', cursive;
     font-size: 50px;
     font-weight: 100;
 }
@@ -112,7 +116,7 @@ purple: #8509a5
     position: absolute;
     width: 50px;
     height: 7px;
-    background: #8509a5;
+    background: #f3a30d;
     bottom: 0;
     box-shadow: 0 2px 2px #0000001F;
 }
@@ -253,19 +257,12 @@ purple: #8509a5
         font-size: 23px;
     }
 
-    .home-container {
-		min-height: 100vh;
-		background: url(../Images/profilBGphone.jpg);
-		background-size: cover;
-	}
-
-
 	.logo {
         width: 100px;
         top: 20%;
     }
 
-    .landing,
+    .main-title,
     .header,
     .footer {
         padding: 0 7%;
@@ -291,8 +288,6 @@ purple: #8509a5
     }
     
     .section-title {
-        position: relative;
-        font-family: "Abril Fatface", cursive;
         font-size: 50px;
         font-weight: 100;
     }

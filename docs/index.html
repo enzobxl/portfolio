@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="home-container">
-        <header id="header" class="header">
+        <header class="header">
             <a href="index.html" class="logo"> <img src="Images/logo.png" alt="Logo Portfolio" class="logo"></a>
             <ul class="nav-links">  
                 <li class="here">
@@ -34,25 +34,23 @@
             </div>
         </header>
         <div class="content">
-            <div class="landing">
+            <div class="main-title">
                 <h1 class="big-title"> <a href="#" class="big-title">Enzo BROUXEL</a></h1>
             </div>
             <div>
                 <img src="Images/face.png" alt="tete" id="tete">
             </div>
         </div>
-    
-        <footer id="footer" class="footer">
+        <footer class="footer">
             <span class="date">2021 - Enzo BROUXEL</span>
         </footer>
     </div>
     <script>
         const burgerContainer = document.querySelector('.burger-container');
         const navLinks = document.querySelector('.nav-links');
-
         burgerContainer.addEventListener('click', () => {
-            burgerContainer.classList.toggle('active');
-            navLinks.classList.toggle('active');
+        burgerContainer.classList.toggle('active');
+        navLinks.classList.toggle('active');
         })
     </script>
 </body>

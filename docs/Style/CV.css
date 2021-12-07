@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 /* 
 orange: #f3a30d
-purple: #8509a5
 */
 
 * {
@@ -65,7 +64,7 @@ purple: #8509a5
     transform: translateY(-100%);
 }
 
-.landing {
+.main-title {
     line-height: 80px;
     min-height: 100vh;
     display: flex;
@@ -78,7 +77,7 @@ purple: #8509a5
     width: 40%;
     color: #f3a30d;
     font-size: 80px;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Oswald', cursive;
     font-weight: 100;
     text-decoration: none;
 }
@@ -87,7 +86,7 @@ purple: #8509a5
     width: 40%;
     color: white;
     font-size: 60px;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Oswald', cursive;
     font-weight: 100;
     text-decoration: none;
     margin-left: 15%;
@@ -101,7 +100,7 @@ purple: #8509a5
 .section-title {
     position: relative;
     text-align: center;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Oswald', cursive;
     font-size: 50px;
     font-weight: 100;
 }
@@ -268,7 +267,7 @@ purple: #8509a5
         top: 20%;
     }
 
-    .landing,
+    .main-title,
     .header,
     .footer {
         padding: 0 7%;
