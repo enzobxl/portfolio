@@ -273,7 +273,7 @@ orange: #f3a30d
     }
 
     .big-title {
-        font-size: 50px;
+        font-size: 70px;
         line-height: 50px;
     }
 
@@ -290,16 +290,7 @@ orange: #f3a30d
     .section-title {
         font-size: 50px;
         font-weight: 100;
-    }
-    
-    .section-title::before {
-        content: "";
-        position: absolute;
-        width: 50px;
-        height: 7px;
-        background: #2f4e37;
-        bottom: 0;
-        box-shadow: 0 2px 2px #0000001F;
+        margin-left: -50px;
     }
 
 	.footer{

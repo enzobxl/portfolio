@@ -282,6 +282,10 @@ orange: #f3a30d
         line-height: 50px;
     }
 
+    .title{
+        font-size: 40px;
+    }
+
 	#tete{
 		width: 70px;
 		margin-top: 210px;
