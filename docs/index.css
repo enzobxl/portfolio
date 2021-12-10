@@ -15,8 +15,7 @@ orange: #f3a30d
 
 .home-container {
     min-height: 100vh;
-    max-height: 100vh;
-    background: url(../Images/BGprofil.jpg);
+    background: url(Images/BG.jpg);
     background-size: cover;
 }
 
@@ -75,28 +74,12 @@ orange: #f3a30d
 }
 
 .big-title {
-    width: 100%;
-    color: #f3a30d;
+    width: 40%;
+    color: black;
     font-size: 80px;
     font-family: 'Oswald', cursive;
     font-weight: 100;
     text-decoration: none;
-}
-
-.title{
-    width: 40%;
-    color: white;
-    font-size: 60px;
-    font-family: 'Oswald', cursive;
-    font-weight: 100;
-    text-decoration: none;
-    margin-left: 15%;
-}
-
-.text-container {
-    min-height: 80vh;
-    background: white;
-    padding: 0 100px;
 }
 
 .content{
@@ -104,21 +87,11 @@ orange: #f3a30d
     align-items: center;
 }
 
-.section-title {
-    position: relative;
-    font-family: 'Oswald', cursive;
-    font-size: 50px;
-    font-weight: 100;
-}
-
-.section-title::before {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 7px;
-    background: #f3a30d;
-    bottom: 0;
-    box-shadow: 0 2px 2px #0000001F;
+#tete{
+    width: 150px;
+    margin-left: -220px;
+    margin-top: 30px;
+    
 }
 
 .footer {
@@ -128,7 +101,7 @@ orange: #f3a30d
 
 .date {
     padding-right: 20px;
-    color: white;
+    color: black;
 }
 
 .burger {
@@ -273,25 +246,15 @@ orange: #f3a30d
     }
 
     .big-title {
-        font-size: 70px;
+        font-size: 50px;
         line-height: 50px;
     }
 
-    .text-container {
-        min-height: 80vh;
-        background: white;
-        padding: 0 100px;
-    }
-    
-    .content{
-        text-align: justify;
-    }
-    
-    .section-title {
-        font-size: 50px;
-        font-weight: 100;
-        margin-left: -50px;
-    }
+	#tete{
+		width: 70px;
+        margin-top: 220px;
+        margin-right: 270px;
+	}
 
 	.footer{
 		margin-top: -30px;
@@ -299,5 +262,4 @@ orange: #f3a30d
 	}
 	
 }
-
 
