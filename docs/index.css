@@ -15,6 +15,7 @@ orange: #f3a30d
 
 .home-container {
     min-height: 100vh;
+    max-height: 100vh;
     background: url(Images/BG.jpg);
     background-size: cover;
 }
@@ -82,9 +83,33 @@ orange: #f3a30d
     text-decoration: none;
 }
 
-.content{
+.section-title {
+    position: relative;
+    font-family: 'Oswald', cursive;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background: #f3a30d;
+    bottom: 0;
+    box-shadow: 0 2px 2px #0000001F;
+}
+
+.title{
     display: flex;
     align-items: center;
+}
+
+.content{
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #tete{
@@ -138,6 +163,19 @@ orange: #f3a30d
 
 .here a:hover {
     transform: translateY(-100%);
+}
+
+body::-webkit-scrollbar {
+    width: 11px; 
+}
+  
+body::-webkit-scrollbar-track {
+    background: white; 
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #f3a30d; 
+    border-radius: 5px; 
 }
 
 @media (max-width: 768px) {
@@ -250,15 +288,26 @@ orange: #f3a30d
         line-height: 50px;
     }
 
-	#tete{
+    .section-title {
+        position: relative;
+        font-size: 45px;
+        font-weight: 100;
+        margin-left: -50px;
+    }
+
+    .content{
+        text-align: start;
+    }
+
+    #tete{
 		width: 70px;
         margin-top: 220px;
         margin-right: 270px;
 	}
 
 	.footer{
-		margin-top: -30px;
-		margin-left: -15px;
+		margin-left: -5px; 
+        margin-top: -25px;
 	}
 	
 }
