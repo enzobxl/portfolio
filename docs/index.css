@@ -175,6 +175,33 @@ orange: #f3a30d
     transform: scale(1.5);
 }
 
+.cv-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cliquer{
+    text-align: center;
+}
+
+.cv{
+    width: 60%;
+    height: 60%;
+    margin-left: 11%;
+}
+
+.cv-screen:hover{
+    opacity: 80%;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact-link{
+    text-decoration: none;
+}
+
 a.link:active{
     color: #f3a30d;
 }
@@ -377,6 +404,12 @@ body::-webkit-scrollbar-thumb {
         margin-top: 220px;
         margin-right: 270px;
 	}
+
+    .cv{
+        width: 80%;
+        height: 80%;
+        margin-left: 7%;
+    }
 
 	.footer{
 		margin-left: -5px; 
