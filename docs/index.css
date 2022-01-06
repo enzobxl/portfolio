@@ -118,6 +118,27 @@ orange: #f3a30d
     margin-top: 30px;
 }
 
+.competences{
+    display: flex;
+    justify-content: center;
+}
+
+.langages{
+    margin-right: 100px;
+}
+
+.savoir-faire{
+    margin-left: 100px;
+}
+
+.liste-langages{
+   margin-left: 20px;
+}
+
+.liste-savoir{
+    margin-left: 20px;
+}
+
 .img-crypto-container{
     border: 4px solid;
     border-radius: 5px;
@@ -404,6 +425,14 @@ body::-webkit-scrollbar-thumb {
         margin-top: 220px;
         margin-right: 270px;
 	}
+
+    .langages{
+        margin-right: 0px;
+    }
+    
+    .savoir-faire{
+        margin-left: 30px;
+    }
 
     .cv{
         width: 80%;
