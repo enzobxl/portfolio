@@ -45,4 +45,4 @@ const burgerContainer = document.querySelector('.burger-container');
         burgerContainer.addEventListener('click', () => {
         burgerContainer.classList.toggle('active');
         navLinks.classList.toggle('active');
-        })
+})
