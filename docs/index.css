@@ -135,34 +135,34 @@ orange: #f3a30d
     text-align: center;
     }
     
-    .div1 { 
+    .skills { 
         grid-area: 1 / 1 / 4 / 4;  
     }
-    .div2 { 
+    .skill1 { 
         grid-area: 1 / 1 / 2 / 2; 
     }
-    .div3 { 
+    .skill2 { 
         grid-area: 1 / 2 / 2 / 3; 
     }
-    .div4 { 
+    .skill3 { 
         grid-area: 1 / 3 / 2 / 4; 
     }
-    .div5 { 
+    .skill4 { 
         grid-area: 2 / 3 / 3 / 4; 
     }
-    .div6 { 
+    .skill5 { 
         grid-area: 2 / 2 / 3 / 3; 
     }
-    .div7 { 
+    .skill6 { 
         grid-area: 2 / 1 / 3 / 2; 
     }
-    .div8 { 
+    .skill7 { 
         grid-area: 3 / 1 / 4 / 2; 
     }
-    .div9 { 
+    .skill8 { 
         grid-area: 3 / 2 / 4 / 3; 
     }
-    .div10 { 
+    .skill9 { 
         grid-area: 3 / 3 / 4 / 4; 
     }
 
@@ -178,65 +178,101 @@ orange: #f3a30d
    margin-left: 20px;
 }
 
-.liste-savoir{
-    margin-left: 20px;
-}
-
-.img-crypto-container{
-    border: 4px solid;
-    border-radius: 5px;
-    padding: 10px;
-    color: #f3a30d;
-}
-
-.client-container{
-    display: flex;
-    margin-top: 10px;
-}
-
-.server-container{
+.projects-box {
+    display: grid;
     text-align: center;
-    justify-content: center;
+    gap: 20px;
+    }
+
+#project-content1{
+    margin-top: 32px;
 }
 
-.server{
-    width: 50%;
-    height: 50%;
-    border-radius: 5px;
+#project-content2{
+    margin-top: 0px;
 }
 
-.alice{
-    width: 30%;
-    height: 30%;
-    border-radius: 5px;
+#project-content3{
+    margin-top: 25px;
 }
 
-.bob{
-    width: 30%;
-    height: 30%;
-    border-radius: 5px;
-    margin-left: 40%;
+#more1 {display: none;}
+
+#myBtn1{
+    outline: none;
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
-.client1-title{
-    margin-top: -30px;
+#myBtn1:hover{
+    background-color: #f2f2f2;
 }
 
-.client2-title{
-    margin-top: -30px;
-    text-align: right;
+#more2 {display: none;}
+
+#myBtn2{
+    outline: none;
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
-.server:active{
-    transform: scale(1.5);
+#myBtn2:hover{
+    background-color: #f2f2f2;
 }
 
-.alice:active{
-    transform: scale(1.5);
+#more3 {display: none;}
+
+#myBtn3{
+    outline: none;
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
-.bob:active{
-    transform: scale(1.5);
+#myBtn3:hover{
+    background-color: #f2f2f2;
+}
+
+.arrow{
+    width: 40%;
+}
+
+#android{
+    width: 28%;
+    margin-top: 8px;
+}
+
+#crypto{
+    width: 20%;
+    margin-top: 20px;
+}
+
+#green{
+    width: 22%;
+    margin-top: 22px;
+}
+    
+.projects { 
+    grid-area: 1 / 1 / 4 / 4;  
+}
+.project1 { 
+    grid-area: 1 / 1 / 2 / 2;
+}
+.project2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+
+}
+.project3 { 
+    grid-area: 1 / 3 / 2 / 4;
+
 }
 
 .cv-container{
@@ -448,7 +484,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .big-title {
-        font-size: 50px;
+        font-size: 0px;
         line-height: 50px;
     }
 
@@ -464,9 +500,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     #tete{
-		width: 70px;
-        margin-top: 220px;
-        margin-right: 270px;
+		width: 80%;
+        margin-left: 0px;
 	}
 
     .langages{
@@ -481,6 +516,34 @@ body::-webkit-scrollbar-thumb {
     
     .savoir-faire{
         margin-left: 30px;
+    }
+
+    #myBtn1{
+        width: 50px;
+        height: 50px;
+    }
+
+    #myBtn2{
+        width: 50px;
+        height: 50px;
+    }
+
+    #myBtn3{
+        width: 50px;
+        height: 50px;
+    }
+
+    .projects { 
+        grid-area: 1 / 1 / 4 / 2; 
+    }
+    .project1 { 
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .project2 { 
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    .project3 { 
+        grid-area: 3 / 1 / 4 / 2;
     }
 
     .cv{

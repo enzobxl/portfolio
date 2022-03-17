@@ -50,47 +50,36 @@
                 <h2>Mes compétences</h2> <br>
                 <section class="skills-box">
                     <div class="competences">
-                        <div class="div1"> </div>
-                        <div class="div2"> <img src="Ressources/html.png" alt="icon html"> <p class="icon-name">HTML</p> </div>
-                        <div class="div3"> <img src="Ressources/css.png" alt="icon css"> <p class="icon-name">CSS</p> </div>
-                        <div class="div4"> <img src="Ressources/java.png" alt="icon java"> <p class="icon-name">JAVA</p></div>
-                        <div class="div5"> <img src="Ressources/python.png" alt="icon python"> <p class="icon-name">PYTHON</p></div>
-                        <div class="div6"> <img src="Ressources/c.png" alt="icon c"> <p class="icon-name">C</p></div>
-                        <div class="div7"> <img src="Ressources/sql.png" alt="icon sql"> <p class="icon-name">SQL</p> </div>
-                        <div class="div8"> <img src="Ressources/uml.png" alt="icon uml"> <p class="icon-name">UML</p></div>
-                        <div class="div9"> <img src="Ressources/git.png" alt="icon git"> <p class="icon-name">GIT</p> </div>
-                        <div class="div10"> <img src="Ressources/maven.png" alt="icon maven"> <p class="icon-name">MAVEN</p> </div>
+                        <div class="skills"> </div>
+                        <div class="skill1"> <img src="Ressources/html.png" alt="icon html"> <p class="icon-name">HTML</p> </div>
+                        <div class="skill2"> <img src="Ressources/css.png" alt="icon css"> <p class="icon-name">CSS</p> </div>
+                        <div class="skill3"> <img src="Ressources/java.png" alt="icon java"> <p class="icon-name">JAVA</p></div>
+                        <div class="skill4"> <img src="Ressources/python.png" alt="icon python"> <p class="icon-name">PYTHON</p></div>
+                        <div class="skill5"> <img src="Ressources/c.png" alt="icon c"> <p class="icon-name">C</p></div>
+                        <div class="skill6"> <img src="Ressources/sql.png" alt="icon sql"> <p class="icon-name">SQL</p> </div>
+                        <div class="skill7"> <img src="Ressources/uml.png" alt="icon uml"> <p class="icon-name">UML</p></div>
+                        <div class="skill8"> <img src="Ressources/git.png" alt="icon git"> <p class="icon-name">GIT</p> </div>
+                        <div class="skill9"> <img src="Ressources/maven.png" alt="icon maven"> <p class="icon-name">MAVEN</p> </div>
                     </div>
                 </section>
-                
             </div> <br> <br>
             <h1 id="projets" class="section-title">Projets</h1> <br>
             <div class="content">
-                <h2>Site web sur la GreenTech</h2>
-                <p>
-                    J'ai participé à la création d'un site web, présentant et comparant 2 organisations de la <span class="gras">GreenTech</span> en occitanie. 
-                    Ce projet, m'a permis de développer mes compétences en <span class="gras">HTML/CSS</span> mais aussi en gestion de
-                    <span class="gras">projets</span>. <br>
-                    Voici le lien de ce site : <a class="link" href="https://enzobxl.github.io/greencompare/">greencompare</a>
-                </p> <br> <br>
-                <h2>Communication chiffrée</h2>
-                <p>
-                    Ceci est un projet de communication sécurisée grâce au <span class="gras">chiffrement symétrique</span>. Le projet a été réalisé
-                    en <span class="gras">python</span> et fait appel à beaucoup de connaissances, comme le binaire, la connaissance du procédé de chiffrement,
-                    les communications par sockets et évidemment le langage python. 
-                </p> <br>
-                <section class="img-crypto-container">
-                    <div class="server-container">
-                        <h3>Serveur</h3>
-                        <img class="server" src="Ressources/serveur.png" alt="image serveur de communication">
-                    </div> <br> <br>
-                    <h3 class="client1-title">Client 1</h3> 
-                    <h3 class="client2-title">Client 2</h3> 
-                    <div class="client-container">
-                        <img class="alice" src="Ressources/clientAlice.png" alt="image client alice"> 
-                        <img class="bob" src="Ressources/clientBob.png" alt="image client bob">
+                <div class="projects-box">
+                    <div class="projects"> </div>
+                    <div class="project1"> <img src="Ressources/crypto.png" id="crypto" alt="icon cryptographie"> 
+                        <p id="project-content1">CryptoChat <span id="dots1">...</span><span id="more1"> apres </span></p>
+                        <button onclick="myFunction1()" id="myBtn1"> <img src="Ressources/arrow.png" class="arrow" alt="fleche"></button>
                     </div>
-                </section> <br>
+                    <div class="project2"> <img src="Ressources/android.png" id="android" alt="icon android">
+                        <p id="project-content2">Application Android<span id="dots2">...</span><span id="more2"> apres </span></p>
+                        <button onclick="myFunction2()" id="myBtn2"> <img src="Ressources/arrow.png" class="arrow" alt="fleche"></button>
+                    </div>
+                    <div class="project3"> <img src="Ressources/green.png" id="green" alt="icon green"> 
+                        <p id="project-content3">GreenCompare<span id="dots3">...</span><span id="more3"> apres </span></p>
+                        <button onclick="myFunction3()" id="myBtn3"> <img src="Ressources/arrow.png" class="arrow" alt="fleche"></button>
+                    </div>
+                </div>
             </div> <br>
             <h1 id="cv" class="section-title">CV</h1> <br>
             <div class="content">
@@ -112,14 +101,7 @@
             <span class="date">2022 - Enzo BROUXEL</span>
         </footer>
     </div>
-    <script>
-        const burgerContainer = document.querySelector('.burger-container');
-        const navLinks = document.querySelector('.nav-links');
-        burgerContainer.addEventListener('click', () => {
-        burgerContainer.classList.toggle('active');
-        navLinks.classList.toggle('active');
-        })
-    </script>
+    <script src="code.js"></script>
 </body>
 
 </html>
