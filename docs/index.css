@@ -182,6 +182,7 @@ orange: #f3a30d
     display: grid;
     text-align: center;
     gap: 20px;
+    margin-top: 15px;
     }
 
 #project-content1{
@@ -484,7 +485,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .big-title {
-        font-size: 0px;
+        font-size: 45px;
         line-height: 50px;
     }
 
@@ -501,6 +502,7 @@ body::-webkit-scrollbar-thumb {
 
     #tete{
 		width: 80%;
+        margin-top: 2px;
         margin-left: 0px;
 	}
 
