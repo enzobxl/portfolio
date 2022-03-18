@@ -11,14 +11,12 @@ orange: #f3a30d
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
-    /* background-color: black; */
+    background-color: black;
 }
 
 .home-container {
     min-height: 100vh;
     max-height: 100vh;
-    /* background: url(Ressources/BG.jpg);
-    background-size: cover; */
 }
 
 .header {
@@ -49,7 +47,7 @@ orange: #f3a30d
 .nav-links a {
     font-size: 18px;
     font-weight: 500;
-    color: black;
+    color: white;
     text-decoration: none;
     position: relative;
     display: block;
@@ -87,7 +85,7 @@ orange: #f3a30d
 
 .big-title {
     width: 40%;
-    color: black; 
+    color: white; 
     font-size: 80px;
     font-family: 'Oswald', cursive;
     font-weight: 100;
@@ -97,7 +95,7 @@ orange: #f3a30d
 .big-title2 {
     width: 40%;
     margin-top: 17px;
-    color: black; 
+    color: white; 
     font-size: 80px;
     font-family: 'Oswald', cursive;
     font-weight: 100;
@@ -342,7 +340,7 @@ a.link:visited{
 
 .date {
     padding-right: 20px;
-    color: black;
+    color: white;
 }
 
 .burger {
@@ -391,7 +389,7 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-track {
-    background: white; 
+    background: black; 
 }
   
 body::-webkit-scrollbar-thumb {
@@ -442,7 +440,7 @@ body::-webkit-scrollbar-thumb {
     .burger-container.active .burger::before {
         bottom: 0;
         transform: rotate(-45deg);
-        background: black;
+        background: white;
     }
 
     .burger::after {
@@ -459,7 +457,7 @@ body::-webkit-scrollbar-thumb {
     .burger-container.active .burger::after {
         top: 0;
         transform: rotate(45deg);
-        background: black;
+        background: white;
     }
 
     .nav-links {
@@ -485,7 +483,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .nav-links a {
-        color: black;
+        color: white;
         font-size: 23px;
     }
 

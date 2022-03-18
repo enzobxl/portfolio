@@ -46,3 +46,8 @@ const burgerContainer = document.querySelector('.burger-container');
         burgerContainer.classList.toggle('active');
         navLinks.classList.toggle('active');
 })
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
