@@ -11,12 +11,17 @@ orange: #f3a30d
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
-    background-color: black;
 }
 
 .home-container {
     min-height: 100vh;
     max-height: 100vh;
+    background-image: url(../Ressources/darkBG.jpg);
+    background-size: cover;
+}
+
+.dark-box{
+    background-color: black;
 }
 
 .header {
@@ -108,6 +113,7 @@ orange: #f3a30d
     font-size: 50px;
     font-weight: 100;
     text-align: center;
+    color: white;
 }
 
 .section-title::before {
@@ -129,6 +135,7 @@ orange: #f3a30d
     text-align: justify;
     padding-left: 15%;
     padding-right: 15%;
+    color: white;
 }
 
 #tete{
@@ -145,6 +152,7 @@ orange: #f3a30d
 .icon-name{
     font-weight: 600;
     margin-top: 5px;
+    color: white;
 }
 
 .competences {
@@ -201,7 +209,8 @@ orange: #f3a30d
     text-align: center;
     gap: 20px;
     margin-top: 15px;
-    }
+    color: white;
+}
 
 #project-content1{
     margin-top: 32px;
@@ -227,7 +236,7 @@ orange: #f3a30d
 }
 
 #myBtn1:hover{
-    background-color: #f2f2f2;
+    background-color: #0c0d0c;
 }
 
 #more2 {display: none;}
@@ -242,7 +251,7 @@ orange: #f3a30d
 }
 
 #myBtn2:hover{
-    background-color: #f2f2f2;
+    background-color: #0c0d0c;
 }
 
 #more3 {display: none;}
@@ -257,11 +266,16 @@ orange: #f3a30d
 }
 
 #myBtn3:hover{
-    background-color: #f2f2f2;
+    background-color: #0c0d0c;
 }
 
 .arrow{
     width: 40%;
+}
+
+.arrow:hover{
+    width: 40%;
+    background-color: #0c0d0c;
 }
 
 #android{
@@ -333,13 +347,7 @@ a.link:visited{
     color: #f3a30d;
 }
 
-.footer {
-    margin-top: -2%;
-    margin-left: 10px;
-}
-
 .date {
-    padding-right: 20px;
     color: white;
 }
 
@@ -409,7 +417,11 @@ body::-webkit-scrollbar-thumb {
         position: relative;
     }
 
-    .burger {
+    .burger-container.active{
+        background-color: #f3a30d;
+    }
+
+    .burger {   
         display: block;
         height: 3px;
         width: 30px;
@@ -476,15 +488,18 @@ body::-webkit-scrollbar-thumb {
 
     .nav-links.active {
         top: 0;
+        background-color: #f3a30d;
     }
 
     .nav-links li {
         margin: 0;
+        background-color: #f3a30d;
     }
 
     .nav-links a {
         color: white;
         font-size: 23px;
+        background-color: #f3a30d;
     }
 
 	.logo {
@@ -492,9 +507,19 @@ body::-webkit-scrollbar-thumb {
         top: 20%;
     }
 
+    #toggleBtn{
+        width: 50px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: 16px;
+    }
+    
+    .toggle{
+        width: 60%;
+    }
+
     .main-title,
-    .header,
-    .footer {
+    .header{
         padding: 0 7%;
     }
 
@@ -572,10 +597,8 @@ body::-webkit-scrollbar-thumb {
         margin-left: 7%;
     }
 
-	.footer{
-		margin-left: -5px; 
-        margin-top: -25px;
-	}
-	
+    .date{
+        margin-left: 15px;
+    }
 }
 

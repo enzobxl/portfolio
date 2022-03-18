@@ -11,7 +11,7 @@
 <body>
     <div class="home-container">
         <header class="header">
-            <a href="index.html" class="logo"> <img src="../Ressources/logo.png" alt="Logo Portfolio" class="logo"></a>
+            <a href="../index.html" class="logo"> <img src="../Ressources/logo.png" alt="Logo Portfolio" class="logo"></a>
             <ul class="nav-links">  
                 <li>
                     <a href="#profil" data-text="Profil">Profil</a>
@@ -40,69 +40,71 @@
                 <img src="../Ressources/tete.jpg" alt="tete" id="tete">
             </div>
         </div>
-        <div class="text-container">
-            <br>
-            <h1 id="profil" class="section-title">Profil</h1> <br>
-            <div class="content">
-                <p>
-                    Je suis un étudiant français de <span class="gras">18 ans</span> et j'étudie actuellement à l'IUT de Blagnac.
-                    En effet, je suis en première année de <span class="gras">BUT informatique</span> (1 an / 3). <br>
-                    Vous êtes intéressé par mon profil ? <a class="contact-link" href="#contact"><span class="gras">Contactez-moi !</span></a> 
-                </p> <br>
-                <h2>Mes compétences</h2> <br>
-                <section class="skills-box">
-                    <div class="competences">
-                        <div class="skills"> </div>
-                        <div class="skill1"> <img src="../Ressources/html.png" alt="icon html"> <p class="icon-name">HTML</p> </div>
-                        <div class="skill3"> <img src="../Ressources/java.png" alt="icon java"> <p class="icon-name">JAVA</p></div>
-                        <div class="skill2"> <img src="../Ressources/css.png" alt="icon css"> <p class="icon-name">CSS</p> </div>
-                        <div class="skill4"> <img src="../Ressources/python.png" alt="icon python"> <p class="icon-name">PYTHON</p></div>
-                        <div class="skill5"> <img src="../Ressources/c.png" alt="icon c"> <p class="icon-name">C</p></div>
-                        <div class="skill6"> <img src="../Ressources/sql.png" alt="icon sql"> <p class="icon-name">SQL</p> </div>
-                        <div class="skill7"> <img src="../Ressources/uml.png" alt="icon uml"> <p class="icon-name">UML</p></div>
-                        <div class="skill8"> <img src="../Ressources/git.png" alt="icon git"> <p class="icon-name">GIT</p> </div>
-                        <div class="skill9"> <img src="../Ressources/maven.png" alt="icon maven"> <p class="icon-name">MAVEN</p> </div>
+        <section class="dark-box"> 
+            <div class="text-container">
+                <br>
+                <h1 id="profil" class="section-title">Profil</h1> <br>
+                <div class="content">
+                    <p>
+                        Je suis un étudiant français de <span class="gras">18 ans</span> et j'étudie actuellement à l'IUT de Blagnac.
+                        En effet, je suis en première année de <span class="gras">BUT informatique</span> (1 an / 3). <br>
+                        Vous êtes intéressé par mon profil ? <a class="contact-link" href="#contact"><span class="gras">Contactez-moi !</span></a> 
+                    </p> <br>
+                    <h2>Mes compétences</h2> <br>
+                    <section class="skills-box">
+                        <div class="competences">
+                            <div class="skills"> </div>
+                            <div class="skill1"> <img src="../Ressources/html.png" alt="icon html"> <p class="icon-name">HTML</p> </div>
+                            <div class="skill3"> <img src="../Ressources/java.png" alt="icon java"> <p class="icon-name">JAVA</p></div>
+                            <div class="skill2"> <img src="../Ressources/css.png" alt="icon css"> <p class="icon-name">CSS</p> </div>
+                            <div class="skill4"> <img src="../Ressources/python.png" alt="icon python"> <p class="icon-name">PYTHON</p></div>
+                            <div class="skill5"> <img src="../Ressources/c.png" alt="icon c"> <p class="icon-name">C</p></div>
+                            <div class="skill6"> <img src="../Ressources/sql.png" alt="icon sql"> <p class="icon-name">SQL</p> </div>
+                            <div class="skill7"> <img src="../Ressources/uml.png" alt="icon uml"> <p class="icon-name">UML</p></div>
+                            <div class="skill8"> <img src="../Ressources/git.png" alt="icon git"> <p class="icon-name">GIT</p> </div>
+                            <div class="skill9"> <img src="../Ressources/whitemaven.png" alt="icon maven"> <p class="icon-name">MAVEN</p> </div>
+                        </div>
+                    </section>
+                </div> <br> <br>
+                <h1 id="projets" class="section-title">Projets</h1> <br>
+                <div class="content">
+                    <div class="projects-box">
+                        <div class="projects"> </div>
+                        <div class="project1"> <img src="../Ressources/crypto.png" id="crypto" alt="icon cryptographie"> 
+                            <p id="project-content1">CryptoChat <span id="dots1">...</span><span id="more1"> apres </span></p>
+                            <button onclick="myFunction1()" id="myBtn1"> <img src="../Ressources/whitearrow.png" class="arrow" alt="fleche"></button>
+                        </div>
+                        <div class="project2"> <img src="../Ressources/android.png" id="android" alt="icon android">
+                            <p id="project-content2">Application Android<span id="dots2">...</span><span id="more2"> apres </span></p>
+                            <button onclick="myFunction2()" id="myBtn2"> <img src="../Ressources/whitearrow.png" class="arrow" alt="fleche"></button>
+                        </div>
+                        <div class="project3"> <img src="../Ressources/green.png" id="green" alt="icon green"> 
+                            <p id="project-content3">GreenCompare<span id="dots3">...</span><span id="more3"> apres </span></p>
+                            <button onclick="myFunction3()" id="myBtn3"> <img src="../Ressources/whitearrow.png" class="arrow" alt="fleche"></button>
+                        </div>
                     </div>
-                </section>
-            </div> <br> <br>
-            <h1 id="projets" class="section-title">Projets</h1> <br>
-            <div class="content">
-                <div class="projects-box">
-                    <div class="projects"> </div>
-                    <div class="project1"> <img src="../Ressources/crypto.png" id="crypto" alt="icon cryptographie"> 
-                        <p id="project-content1">CryptoChat <span id="dots1">...</span><span id="more1"> apres </span></p>
-                        <button onclick="myFunction1()" id="myBtn1"> <img src="../Ressources/whitearrow.png" class="arrow" alt="fleche"></button>
-                    </div>
-                    <div class="project2"> <img src="../Ressources/android.png" id="android" alt="icon android">
-                        <p id="project-content2">Application Android<span id="dots2">...</span><span id="more2"> apres </span></p>
-                        <button onclick="myFunction2()" id="myBtn2"> <img src="../Ressources/whitearrow.png" class="arrow" alt="fleche"></button>
-                    </div>
-                    <div class="project3"> <img src="../Ressources/green.png" id="green" alt="icon green"> 
-                        <p id="project-content3">GreenCompare<span id="dots3">...</span><span id="more3"> apres </span></p>
-                        <button onclick="myFunction3()" id="myBtn3"> <img src="../Ressources/whitearrow.png" class="arrow" alt="fleche"></button>
-                    </div>
-                </div>
-            </div> <br>
-            <h1 id="cv" class="section-title">CV</h1> <br>
-            <div class="content">
-                <h4 class="cliquer">Cliquer sur l'image pour télécharger mon CV</h4> <br> 
-                <div class="cv-container">
-                    <a class="cv" href="../Ressources/CV.pdf"><img class="cv cv-screen" src="../Ressources/screenCV.png" alt="CV image"></a>
                 </div> <br>
-            </div> <br>
-            <h1 id="contact" class="section-title">Contact</h1> <br> <br>
-            <div class="content contact">
-                <p>
-                    <span class="gras">Adresse</span> : Toulouse, 31100 <br> <br>
-                    <span class="gras">E-mail</span> : enzo.brouxel@etu.univ-tlse2.fr <br> <br>
-                    <span class="gras">Téléphone</span> : 06 65 93 98 28 
-                </p>
-            </div> <br> 
-        </div> <br> <br>
-        <footer class="footer">
-            <span class="date">2022 - Enzo BROUXEL</span>
-        </footer>
-        <script src="../code.js"></script>
-    </div>
+                <h1 id="cv" class="section-title">CV</h1> <br>
+                <div class="content">
+                    <h4 class="cliquer">Cliquer sur l'image pour télécharger mon CV</h4> <br> 
+                    <div class="cv-container">
+                        <a class="cv" href="../Ressources/CV.pdf"><img class="cv cv-screen" src="../Ressources/screenCV.png" alt="CV image"></a>
+                    </div> <br>
+                </div> <br>
+                <h1 id="contact" class="section-title">Contact</h1> <br> <br>
+                <div class="content contact">
+                    <p>
+                        <span class="gras">Adresse</span> : Toulouse, 31100 <br> <br>
+                        <span class="gras">E-mail</span> : enzo.brouxel@etu.univ-tlse2.fr <br> <br>
+                        <span class="gras">Téléphone</span> : 06 65 93 98 28 
+                    </p>
+                </div> <br> 
+            </div> <br> <br>
+            <footer class="footer">
+                <span class="date">2022 - Enzo BROUXEL</span>
+            </footer>
+            <script src="../code.js"></script>
+        </div>
+        </section>
 </body>
 </html>
