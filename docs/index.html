@@ -33,8 +33,7 @@
         </header>
         <div class="title">
             <div class="main-title">
-                <h1 class="big-title"> <a href="#profil" class="big-title">Enzo</a></h1>
-                <h1 class="big-title2"> <a href="#profil" class="big-title">BROUXEL</a></h1>
+                <h1 class="big-title"> <a href="#profil" class="big-title">Enzo BROUXEL</a></h1>
             </div>
             <div>
                 <img src="Ressources/tete.jpg" alt="tete" id="tete">
@@ -44,7 +43,7 @@
             <br>
             <h1 id="profil" class="section-title">Profil</h1> <br>
             <div class="content">
-                <p>
+                <p class="profil-content">
                     Je suis un étudiant français de <span class="gras">18 ans</span> et j'étudie actuellement à l'IUT de Blagnac.
                     En effet, je suis en première année de <span class="gras">BUT informatique</span> (1 an / 3). <br>
                     Vous êtes intéressé par mon profil ? <a class="contact-link" href="#contact"><span class="gras">Contactez-moi !</span></a> 
@@ -70,15 +69,27 @@
                 <div class="projects-box">
                     <div class="projects"> </div>
                     <div class="project1"> <img src="Ressources/crypto.png" id="crypto" alt="icon cryptographie"> 
-                        <p id="project-content1">CryptoChat <span id="dots1">...</span><span id="more1"> apres </span></p>
+                        <p id="project-content1"> <span id="dots1">CryptoChat...</span><span id="more1"> 
+                            CryptoChat est un projet réalisé en Python, le but était que plusieurs personnes
+                            puissent communiquer de façon sécurisé. En effet, toutes les communications sont 
+                            chiffrées grâce à un algorithme de chiffrage symétrique. En ce qui concerne purement
+                            l'échange de données, cela a été fait avec les sockets en Python. 
+                        </span></p>
                         <button onclick="myFunction1()" id="myBtn1"> <img src="Ressources/arrow.png" class="arrow" alt="fleche"></button>
                     </div>
                     <div class="project2"> <img src="Ressources/android.png" id="android" alt="icon android">
-                        <p id="project-content2">Application Android<span id="dots2">...</span><span id="more2"> apres </span></p>
+                        <p id="project-content2"> <span id="dots2">Application Android...</span><span id="more2"> 
+                            Je réalise aussi des applications android, à l'aide d'android studio. La partie logique est réalisée en Java 
+                            et la partie graphique est détailé dans des fichiers xml. 
+                        </span></p>
                         <button onclick="myFunction2()" id="myBtn2"> <img src="Ressources/arrow.png" class="arrow" alt="fleche"></button>
                     </div>
                     <div class="project3"> <img src="Ressources/green.png" id="green" alt="icon green"> 
-                        <p id="project-content3">GreenCompare<span id="dots3">...</span><span id="more3"> apres </span></p>
+                        <p id="project-content3"> <span id="dots3">GreenCompare...</span><span id="more3">  
+                            Le projet GreenCompare était de créer un site web présentant 2 entreprises de la green tech d'Occitanie.
+                            Nous devions présenter individuellement les entreprises puis les comparer sur différents aspects. Voici le
+                            lien du site <a class="gras" href="https://enzobxl.github.io/greencompare/"> ici</a>.
+                        </span></p>
                         <button onclick="myFunction3()" id="myBtn3"> <img src="Ressources/arrow.png" class="arrow" alt="fleche"></button>
                     </div>
                 </div>
